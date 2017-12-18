@@ -1,0 +1,11 @@
+.table {
+    width:100%;
+    table-layout: fixed;
+}
+.sort-header{
+    cursor: default;
+}
+authorHeader{
+    cursor: default;
+    color: #18bc9c;
+}

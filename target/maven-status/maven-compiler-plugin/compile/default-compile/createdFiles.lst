@@ -1,0 +1,12 @@
+ru\library\models\Book.class
+ru\library\services\dao\BookDao.class
+ru\library\LibraryApplication.class
+ru\library\models\BasicUser.class
+ru\library\controlers\UserPageControler.class
+ru\library\services\dao\UserDao.class
+ru\library\models\User.class
+ru\library\services\BookServices.class
+ru\library\services\UserService.class
+ru\library\configs\SecurityConfig.class
+ru\library\controlers\BookPageControler.class
+ru\library\controlers\MainControler.class
