@@ -9,7 +9,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 
 
-@EnableAutoConfiguration
+
 @SpringBootApplication
 public class LibraryApplication  {
 

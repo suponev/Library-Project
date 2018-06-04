@@ -1,11 +1,21 @@
 package ru.library.models;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import ru.library.entity.UserEntity;
 
 import java.util.Collection;
 
-public class User extends BasicUser implements UserDetails {
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class User implements UserDetails {
+
+    private String username;
+    private String password;
 
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return null;
@@ -25,5 +35,9 @@ public class User extends BasicUser implements UserDetails {
 
     public boolean isEnabled() {
         return true;
+    }
+
+    public static User fromEntity(UserEntity entity) {
+        return new User(entity.getUsername(), entity.getPassword());
     }
 }
