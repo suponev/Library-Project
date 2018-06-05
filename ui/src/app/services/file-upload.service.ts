@@ -23,4 +23,5 @@ export class FileUploadService {
     return this.http.get('/api/publish_image/' + id)
       .map((res: any) => res['data']);
   }
+
 }

@@ -4,13 +4,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.web.multipart.MultipartFile;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Publication {
-
+public class PublicationRequest {
     private Long id;
     @JsonProperty("user_id")
     private Long userId;
@@ -18,4 +16,5 @@ public class Publication {
     private String username;
     @JsonProperty("image_id")
     private Long imageId;
+
 }

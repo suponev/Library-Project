@@ -4,10 +4,13 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.UpdateTimestamp;
 import ru.library.models.Publication;
+import ru.library.models.PublicationRequest;
 
 import javax.persistence.*;
 import java.io.IOException;
+import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
@@ -26,7 +29,11 @@ public class PublicationEntity {
     @OneToOne
     private ImageEntity image;
 
-    public static PublicationEntity fromModel(Publication model) {
+    @UpdateTimestamp
+    @Column(name = "time_key")
+    private LocalDateTime timeKey;
+
+    public static PublicationEntity fromModel(PublicationRequest model) {
         PublicationEntity entity = new PublicationEntity();
         entity.setText(model.getText());
         entity.setUser(new UserEntity(model.getUserId()));

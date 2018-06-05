@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="InterviewProject" />
+        <module name="PhotoService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="InterviewProject" target="1.8" />
+      <module name="PhotoService" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
