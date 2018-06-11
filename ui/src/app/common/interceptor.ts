@@ -33,7 +33,10 @@ export class SecurityHttpInterceptor implements HttpInterceptor {
   private static getToken(): string {
     const auth = JSON.parse(localStorage.getItem('auth')) as Auth;
     console.log('foundToken', auth);
-    return auth ? auth.token : '';
+    if(auth === null){
+      return '';
+    }
+    return auth.token !== null ? auth.token : '';
   }
 
   private logout() {

@@ -1,26 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bd80e11-dfa0-4594-9e6d-dc95d287fd5b" name="Default" comment="Update project to photoservice">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationResponse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ui/src/app/services/publish.service.ts" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/InterviewProject_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/InterviewProject_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="3bd80e11-dfa0-4594-9e6d-dc95d287fd5b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/library/entity/VoteEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/library/entity/ids/VoteId.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/library/models/Vote.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/InterviewProject.iml" afterPath="$PROJECT_DIR$/PhotoService.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/configs/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/configs/SecurityConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/controlers/FileControler.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/controlers/PublicationControler.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/controlers/PublicationControler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/controlers/UserEndpoint.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/dao/AvatarDao.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/dao/PublicationDao.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/dao/PublicationDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/entity/ImageEntity.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/entity/ImageEntity.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/entity/PublicationEntity.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/entity/PublicationEntity.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/models/Publication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationFilter.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationFilter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationRequest.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationRequest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationResponse.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/models/User.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/models/auth/AuthResponse.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/models/auth/AuthResponse.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/services/PublicationServise.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/services/PublicationServise.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/common/models/publication.model.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/services/AuthService.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/services/AuthService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/services/FileUploadService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/library/services/PublicationServise.java" afterPath="$PROJECT_DIR$/src/main/java/ru/library/services/PublicationService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-master.sql" afterPath="$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-master.sql" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/src/app/common/models/redirector.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/changeLog/db.changelog-master.sql" afterPath="$PROJECT_DIR$/target/classes/db/changeLog/db.changelog-master.sql" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/library/configs/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/ru/library/configs/SecurityConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/library/models/User.class" afterPath="$PROJECT_DIR$/target/classes/ru/library/models/User.class" />
+      <change beforePath="$PROJECT_DIR$/ui/package.json" afterPath="$PROJECT_DIR$/ui/package.json" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/app.module.ts" afterPath="$PROJECT_DIR$/ui/src/app/app.module.ts" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/auth/auth.component.css" afterPath="$PROJECT_DIR$/ui/src/app/auth/auth.component.css" />
       <change beforePath="$PROJECT_DIR$/ui/src/app/auth/auth.component.html" afterPath="$PROJECT_DIR$/ui/src/app/auth/auth.component.html" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/auth/auth.component.ts" afterPath="$PROJECT_DIR$/ui/src/app/auth/auth.component.ts" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/common/interceptor.ts" afterPath="$PROJECT_DIR$/ui/src/app/common/interceptor.ts" />
       <change beforePath="$PROJECT_DIR$/ui/src/app/common/models/publication.model.ts" afterPath="$PROJECT_DIR$/ui/src/app/common/models/publication.model.ts" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/common/models/user.model.ts" afterPath="$PROJECT_DIR$/ui/src/app/common/models/user.model.ts" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/feed/feed.component.html" afterPath="$PROJECT_DIR$/ui/src/app/feed/feed.component.html" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/feed/feed.component.scss" afterPath="$PROJECT_DIR$/ui/src/app/feed/feed.component.scss" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/feed/feed.component.ts" afterPath="$PROJECT_DIR$/ui/src/app/feed/feed.component.ts" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/services/auth.service.ts" afterPath="$PROJECT_DIR$/ui/src/app/services/auth.service.ts" />
       <change beforePath="$PROJECT_DIR$/ui/src/app/services/file-upload.service.ts" afterPath="$PROJECT_DIR$/ui/src/app/services/file-upload.service.ts" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/services/publish.service.ts" afterPath="$PROJECT_DIR$/ui/src/app/services/publish.service.ts" />
+      <change beforePath="$PROJECT_DIR$/ui/yarn.lock" afterPath="$PROJECT_DIR$/ui/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,6 +57,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/InterviewProject$LibraryApplication.coverage" NAME="LibraryApplication Coverage Results" MODIFIED="1513473260951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.library.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Library_Project$LibraryApplication__1_.coverage" NAME="LibraryApplication (1) Coverage Results" MODIFIED="1528487076550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.library.*</FILTER>
     </SUITE>
   </component>
@@ -50,127 +77,108 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="test" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test" type="feb32156:DbDataSourceImpl" />
-        <item name="TEST: database" type="c8e2528e:H2ImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test" type="feb32156:DbDataSourceImpl" />
-        <item name="TEST: database" type="c8e2528e:H2ImplModel$Database" />
-        <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test" type="feb32156:DbDataSourceImpl" />
-        <item name="TEST: database" type="c8e2528e:H2ImplModel$Database" />
-        <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
-        <item name="GENRES: table" type="e4ce7bd9:H2ImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="publication.model.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/src/app/common/models/publication.model.ts">
+      <file leaf-file-name="feed.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/src/app/feed/feed.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="162">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PublicationDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/dao/PublicationDao.java">
+      <file leaf-file-name="feed.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/src/app/feed/feed.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.changelog-master.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-master.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/src/app/services/auth.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/src/app/auth/auth.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/dao/FileDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AvatarDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/dao/AvatarDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublicationControler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/controlers/PublicationControler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublicationServise.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/services/PublicationServise.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublicationEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/entity/PublicationEntity.java">
+      <file leaf-file-name="publication.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/src/app/publication/publication.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserAuthentication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/security/UserAuthentication.java">
+      <file leaf-file-name="auth.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/src/app/auth/auth.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feed.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/src/app/feed/feed.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="57" column="29" lean-forward="false" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
               <folding>
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#0#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/LibraryApplication.java">
+      <file leaf-file-name="publication.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ui/src/app/publication/publication.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publication.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/src/app/publication/publication.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -207,6 +215,8 @@
       <find>==</find>
       <find>addCorsMappings</find>
       <find>len</find>
+      <find>leng</find>
+      <find>foundToken</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -223,57 +233,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/ui/package.json" />
-        <option value="$PROJECT_DIR$/src/main/ui/src/app/auth/auth.component.css" />
-        <option value="$PROJECT_DIR$/src/main/ui/src/app/auth/auth.component.html" />
-        <option value="$PROJECT_DIR$/src/main/ui/src/app/auth/auth.component.ts" />
-        <option value="$PROJECT_DIR$/src/main/ui/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/src/main/ui/src/app/common/models/news.ts" />
-        <option value="$PROJECT_DIR$/src/main/ui/src/app/common/models/publication.model.ts" />
-        <option value="$PROJECT_DIR$/src/main/ui/src/app/feed/feed.component.ts" />
-        <option value="$PROJECT_DIR$/src/main/ui/src/app/feed/feed.component.css" />
-        <option value="$PROJECT_DIR$/src/main/ui/.angular-cli.json" />
-        <option value="$PROJECT_DIR$/src/main/ui/src/app/feed/feed.component.html" />
-        <option value="$PROJECT_DIR$/src/main/ui/src/app/feed/feed.component.scss" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/BasicUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/controlers/AuthControler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/configs/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/library/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/library/security/AuthFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/library/security/UserAuthentication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/services/AuthService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/library/services/LoadImageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/library/dao/ImageDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/library/entity/AvatarEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/library/entity/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/library/services/FileLoadService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/library/dao/FileDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/controlers/FileControler.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-master.sql" />
         <option value="$PROJECT_DIR$/src/main/java/ru/library/services/FileUploadService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/entity/ImageEntity.java" />
-        <option value="$PROJECT_DIR$/ui/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/ui/src/styles.css" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/Publication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/controlers/FileControler.java" />
+        <option value="$PROJECT_DIR$/ui/src/app/services/file-upload.service.ts" />
+        <option value="$PROJECT_DIR$/ui/src/app/common/models/user.model.ts" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/services/PublicationServise.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/services/AuthService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/auth/AuthResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationRequest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/configs/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/entity/ImageEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/entity/ids/VoteId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/Vote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/entity/VoteEntity.java" />
+        <option value="$PROJECT_DIR$/ui/package.json" />
+        <option value="$PROJECT_DIR$/ui/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/entity/PublicationEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationFilter.java" />
+        <option value="$PROJECT_DIR$/ui/src/app/common/models/publication.model.ts" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/dao/PublicationDao.java" />
+        <option value="$PROJECT_DIR$/ui/src/app/auth/auth.component.html" />
+        <option value="$PROJECT_DIR$/ui/src/app/common/interceptor.ts" />
+        <option value="$PROJECT_DIR$/ui/src/app/auth/auth.component.ts" />
+        <option value="$PROJECT_DIR$/ui/src/app/upload/upload.component.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/services/PublicationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/controlers/PublicationControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationResponse.java" />
+        <option value="$PROJECT_DIR$/ui/src/app/publication/publication.component.ts" />
+        <option value="$PROJECT_DIR$/ui/src/app/services/publish.service.ts" />
+        <option value="$PROJECT_DIR$/ui/src/app/upload/upload.component.ts" />
         <option value="$PROJECT_DIR$/ui/src/app/feed/feed.component.ts" />
+        <option value="$PROJECT_DIR$/ui/src/app/auth/auth.component.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-master.sql" />
+        <option value="$PROJECT_DIR$/ui/src/app/services/auth.service.ts" />
         <option value="$PROJECT_DIR$/ui/src/app/feed/feed.component.html" />
         <option value="$PROJECT_DIR$/ui/src/app/feed/feed.component.scss" />
-        <option value="$PROJECT_DIR$/ui/src/app/services/file-upload.service.ts" />
-        <option value="$PROJECT_DIR$/ui/src/app/auth/auth.component.html" />
-        <option value="$PROJECT_DIR$/ui/src/app/services/publish.service.ts" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/auth/AuthResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/dao/PublicationDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/Publication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/models/PublicationRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/services/PublicationServise.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/entity/PublicationEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/library/controlers/PublicationControler.java" />
-        <option value="$PROJECT_DIR$/ui/src/app/common/models/publication.model.ts" />
+        <option value="$PROJECT_DIR$/ui/src/app/publication/publication.component.html" />
+        <option value="$PROJECT_DIR$/ui/src/app/publication/publication.component.scss" />
       </list>
     </option>
   </component>
@@ -295,11 +305,6 @@
           <item name="interviewproject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="interviewproject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -308,10 +313,10 @@
     <handled-path value="$PROJECT_DIR$/ui/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1665" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="x" value="64" />
+    <option name="y" value="17" />
+    <option name="width" value="1537" />
+    <option name="height" value="884" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -328,7 +333,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -369,6 +375,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="controlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,7 +402,31 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="changeLog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -429,11 +477,40 @@
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="feed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="publication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -470,13 +547,117 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:4.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-4.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="userdetails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="cglib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-core-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="cglib" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-tx:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-tx:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-tx-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-tx:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-tx-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-tx:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-tx-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="transaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Library-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-tx:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-tx-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,7 +675,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="last_opened_file_path" value="$USER_HOME$/TG/tickets " />
-    <property name="SearchEverywhereHistoryKey" value="order form&#9;PSI&#9;JAVA://org.springframework.boot.web.filter.OrderedHttpPutFormContentFilter&#10;app&#9;FILE&#9;file:///home/evgenii/Library-Project/ui/src/app/app.module.ts&#10;feed&#9;FILE&#9;file:///home/evgenii/Library-Project/ui/src/app/feed/feed.component.ts&#10;au&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/ui/src/app/auth/auth.component.css&#10;APP&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/ui/src/app/app.module.ts&#10;sty&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/ui/src/styles.css&#10;pom&#9;FILE&#9;file:///home/evgenii/Library-Project/pom.xml&#10;authrespo&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/java/ru/library/models/auth/AuthResponse.java&#10;appmo&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/ui/src/app/app.module.ts&#10;in&#9;FILE&#9;file:///home/evgenii/Library-Project/InterviewProject.iml&#10;APPMO&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/sn-ui/node_modules/@angular/core/src/application_module.d.ts&#10;appm&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/sn-ui/src/app/app.module.ts&#10;appmodu&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/sn-ui/src/app/app.module.ts&#10;app.mo&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/sn-ui/src/app/app.module.ts&#10;gg1&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="authse&#9;FILE&#9;file:///home/evgenii/Library-Project/ui/src/app/services/auth.service.ts&#10;appmo&#9;FILE&#9;file:///home/evgenii/Library-Project/ui/src/app/app.module.ts&#10;appmode&#9;PSI&#9;JAVA://java.awt.ModalEventFilter.ApplicationModalEventFilter&#10;vote&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/java/ru/library/models/Vote.java&#10;service&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/java/ru/library/services/PublicationService.java&#10;dao&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/java/ru/library/dao/UserDao.java&#10;imagee&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/java/ru/library/entity/ImageEntity.java&#10;publica&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/java/ru/library/entity/PublicationEntity.java&#10;respon&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/java/ru/library/models/PublicationResponse.java&#10;serv&#9;FILE&#9;file:///home/evgenii/Library-Project/ui/src/app/services/publish.service.ts&#10;appm&#9;FILE&#9;file:///home/evgenii/Library-Project/ui/src/app/app.module.ts&#10;fe&#9;FILE&#9;file:///home/evgenii/Library-Project/ui/src/app/feed/feed.component.ts&#10;cha&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/resources/db/changeLog/db.changelog-master.sql&#10;cont&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/java/ru/library/controlers/PublicationControler.java&#10;mode&#9;FILE&#9;file:///home/evgenii/Library-Project/ui/src/app/common/models/user.model.ts&#10;usere&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/java/ru/library/entity/UserEntity.java&#10;auth&#9;FILE&#9;file:///home/evgenii/Library-Project/ui/src/app/auth/auth.component.html&#10;order form&#9;PSI&#9;JAVA://org.springframework.boot.web.filter.OrderedHttpPutFormContentFilter&#10;app&#9;FILE&#9;file:///home/evgenii/Library-Project/ui/src/app/app.module.ts&#10;feed&#9;FILE&#9;file:///home/evgenii/Library-Project/ui/src/app/feed/feed.component.ts&#10;au&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/ui/src/app/auth/auth.component.css&#10;APP&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/ui/src/app/app.module.ts&#10;sty&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/ui/src/styles.css&#10;pom&#9;FILE&#9;file:///home/evgenii/Library-Project/pom.xml&#10;authrespo&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/java/ru/library/models/auth/AuthResponse.java&#10;in&#9;FILE&#9;file:///home/evgenii/Library-Project/InterviewProject.iml&#10;APPMO&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/sn-ui/node_modules/@angular/core/src/application_module.d.ts&#10;appmodu&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/sn-ui/src/app/app.module.ts&#10;app.mo&#9;FILE&#9;file:///home/evgenii/Library-Project/src/main/sn-ui/src/app/app.module.ts&#10;gg1&#9;null&#9;null" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -712,7 +893,14 @@
       <workItem from="1527846002409" duration="7480000" />
       <workItem from="1527934145094" duration="41815000" />
       <workItem from="1528136974065" duration="5557000" />
-      <workItem from="1528208317013" duration="3216000" />
+      <workItem from="1528208317013" duration="5178000" />
+      <workItem from="1528227935099" duration="6610000" />
+      <workItem from="1528354244114" duration="380000" />
+      <workItem from="1528380384396" duration="8826000" />
+      <workItem from="1528398704939" duration="5691000" />
+      <workItem from="1528484454575" duration="23000" />
+      <workItem from="1528484698034" duration="5776000" />
+      <workItem from="1528647008403" duration="33528000" />
     </task>
     <task id="LOCAL-00001" summary="Update project to photoservice">
       <created>1528141871284</created>
@@ -721,7 +909,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528141871284</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added models and services">
+      <created>1528212071025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528212071025</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -736,7 +931,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427453000" />
+    <option name="totallyTimeSpent" value="490249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,41 +943,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1665" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24434389" sideWeight="0.19763695" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12824765" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11685695" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27938214" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1128274" sideWeight="0.48722044" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24983211" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13089006" sideWeight="0.80236304" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27483872" sideWeight="0.80236304" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23141362" sideWeight="0.4377014" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23096775" sideWeight="0.4377014" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5371728" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17591622" sideWeight="0.7411386" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7922581" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35870966" sideWeight="0.7411386" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34764397" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39027086" sideWeight="0.4940978" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14064516" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27803895" sideWeight="0.4940978" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24812031" sideWeight="0.5059022" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47015706" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24812031" sideWeight="0.5059022" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1128274" sideWeight="0.51277953" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47015706" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -852,429 +1047,427 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update project to photoservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update project to photoservice" />
+    <MESSAGE value="added models and services" />
+    <option name="LAST_COMMIT_MESSAGE" value="added models and services" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="115" />
+      <option name="time" value="138" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/ui/src/app/feed/feed.component.scss" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/controlers/AuthControler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="432">
+          <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/BasicUser.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/services/TokenAuthService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/configs/SecurityConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.2.RELEASE/spring-security-core-4.2.2.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/security/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/security/TokenHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        <state relative-caret-position="108">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/services/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#664#665#0" expanded="false" />
-            <element signature="e#691#692#0" expanded="false" />
-            <element signature="e#739#740#0" expanded="false" />
-            <element signature="e#766#767#0" expanded="false" />
-            <element signature="e#800#801#0" expanded="false" />
-            <element signature="e#827#828#0" expanded="false" />
-            <element signature="e#883#884#0" expanded="false" />
-            <element signature="e#958#959#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#507#508#0" expanded="false" />
-            <element signature="e#535#536#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/controlers/UserEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/services/file-upload.service.spec.ts" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/controlers/FileControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-master.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/services/FileUploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#447#448#0" expanded="false" />
-            <element signature="e#485#486#0" expanded="false" />
-            <element signature="e#819#820#0" expanded="false" />
-            <element signature="e#880#881#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/entity/ImageEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#395#396#0" expanded="false" />
-            <element signature="e#423#424#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="89" column="19" lean-forward="false" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="126">
-            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/entity/AvatarEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/auth/auth.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/org/springframework/boot/web/filter/OrderedHttpPutFormContentFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/feed/feed.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/feed/feed.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/services/auth.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/feed/feed.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="66" column="42" lean-forward="false" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#71#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/services/publish.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/services/file-upload.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/common/interceptor.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#129#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/common/models/user.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/controlers/AuthControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/auth/AuthRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="215">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/auth/AuthResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="234">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/auth/auth.component.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="178">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="96" column="52" lean-forward="true" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/services/publish.service.ts">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+        <state relative-caret-position="198">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/PublicationFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/configs/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/PublicationResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/PublicationRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/Publication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="522">
+          <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/LibraryApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/security/UserAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/controlers/PublicationControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/entity/PublicationEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/app/common/models/publication.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/dao/PublicationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/dao/FileDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/dao/AvatarDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="162">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="306">
+          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/services/PublicationServise.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/security/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/security/TokenHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/security/UserAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/entity/ids/VoteId.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/Vote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/entity/VoteEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/awt/ModalEventFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="134" column="25" lean-forward="false" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="107" column="10" lean-forward="false" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/entity/ImageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/PublicationRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/PublicationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/entity/PublicationEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/common/interceptor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#129#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/services/file-upload.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/upload/upload.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/common/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/dao/PublicationDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding>
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/services/PublicationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/controlers/PublicationControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/library/models/PublicationResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="46" column="55" lean-forward="false" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/services/publish.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/upload/upload.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/auth/auth.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="34" column="81" lean-forward="false" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/common/models/publication.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/upload/upload.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/auth/auth.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/auth/auth.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/changeLog/db.changelog-master.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/services/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/feed/feed.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="57" column="29" lean-forward="false" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/feed/feed.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/feed/feed.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/publication/publication.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/publication/publication.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/app/publication/publication.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
           <folding />
         </state>
       </provider>

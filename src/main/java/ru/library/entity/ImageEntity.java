@@ -9,14 +9,14 @@ import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name = "images")
+@Table(name = "image")
 @AllArgsConstructor
 @NoArgsConstructor
 public class ImageEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String base64;
+    private byte[] bytes;
 
     public ImageEntity(Long id) {
         this.id = id;

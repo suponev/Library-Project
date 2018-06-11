@@ -14,6 +14,7 @@ import java.util.Collection;
 @NoArgsConstructor
 public class User implements UserDetails {
 
+    private Long id;
     private String username;
     private String password;
 
@@ -38,6 +39,6 @@ public class User implements UserDetails {
     }
 
     public static User fromEntity(UserEntity entity) {
-        return new User(entity.getUsername(), entity.getPassword());
+        return new User(entity.getId(), entity.getUsername(), entity.getPassword());
     }
 }

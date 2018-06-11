@@ -25,10 +25,16 @@ import {
   MatSortModule, MatStepperModule, MatTableModule, MatTabsModule, MatToolbarModule, MatTooltipModule
 } from "@angular/material";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import { FeedComponent } from './feed/feed.component';
+import {FeedComponent} from './feed/feed.component';
 import {FileUploadService} from "./services/file-upload.service";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {CommonModule} from "@angular/common";
+import {PublicationComponent} from './publication/publication.component';
+import {UploadComponent} from './upload/upload.component';
+import {PublishService} from "./services/publish.service";
+
+import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
+import {InfiniteScrollModule} from "ngx-infinite-scroll";
 
 const routes: Routes = [
   {path: 'auth', component: AuthComponent},
@@ -49,7 +55,9 @@ const routes: Routes = [
     AppComponent,
     AuthComponent,
     UserComponent,
-    FeedComponent
+    FeedComponent,
+    PublicationComponent,
+    UploadComponent
   ],
   imports: [
     MatTableModule,
@@ -97,11 +105,13 @@ const routes: Routes = [
     ReactiveFormsModule,
     MatButtonModule,
     MatInputModule,
+    InfiniteScrollModule
   ],
   providers: [
     AuthService,
     UserService,
     FileUploadService,
+    PublishService,
     AuthRedirector,
     {
       provide: HTTP_INTERCEPTORS,
@@ -112,3 +122,5 @@ const routes: Routes = [
 })
 export class AppModule {
 }
+
+platformBrowserDynamic().bootstrapModule(AppModule);

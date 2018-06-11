@@ -9,12 +9,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PublicationRequest {
-    private Long id;
     @JsonProperty("user_id")
     private Long userId;
     private String text;
-    private String username;
-    @JsonProperty("image_id")
-    private Long imageId;
+    @JsonProperty("image")
+    private String imageBase64;
 
 }

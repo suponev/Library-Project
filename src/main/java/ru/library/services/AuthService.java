@@ -4,6 +4,7 @@ import lombok.NonNull;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
+import ru.library.models.User;
 import ru.library.models.auth.AuthRequest;
 import ru.library.models.auth.AuthResponse;
 import ru.library.security.TokenHandler;
@@ -35,12 +36,13 @@ public class AuthService {
     public AuthResponse chekUsernameAndPassword(AuthRequest request) {
         AuthResponse response = new AuthResponse();
         //List l = userService.all();
-        UserDetails user = userService.getByUsername(request.getUsername());
+        User user = userService.getByUsername(request.getUsername());
         if (user == null) {
             return response;
         } else {
             if (user.getPassword().equals(request.getPassword())) {
                 response.setUsername(user.getUsername());
+                response.setUserId(user.getId());
                 response.setToken(tokenHandler.generateAccessToken(user.getUsername()));
                 return response;
             } else {

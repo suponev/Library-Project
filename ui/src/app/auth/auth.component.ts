@@ -2,8 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {AuthService} from "../services/auth.service";
 import {UserService} from "../services/user.service";
 import {Router} from "@angular/router";
-import {Auth} from "../common/models/user.model";
-import {setTheme} from "ngx-bootstrap";
+
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 
 @Component({
@@ -30,7 +29,10 @@ export class AuthComponent implements OnInit {
   }
 
   logIn() {
-    this.authService.authenticate('admin', 'admin').subscribe((res: boolean) => {
+    if (this.authService.isAuthenticated()) {
+      this.authService.logout();
+    }
+    this.authService.authenticate(this.form.value.login, this.form.value.password).subscribe((res: boolean) => {
         if (res) {
           this.router.navigate(['feed'])
         }

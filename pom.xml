@@ -60,7 +60,6 @@
             <!--<artifactId>hibernate-entitymanager</artifactId>-->
             <!--<version>5.2.16.Final</version>-->
         <!--</dependency>-->
-
         <!--<dependency>-->
         <!--<groupId>com.google.code.gson</groupId>-->
         <!--<artifactId>gson</artifactId>-->

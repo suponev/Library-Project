@@ -4,40 +4,44 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import ru.library.models.Publication;
 import ru.library.models.PublicationRequest;
 
 import javax.persistence.*;
 import java.io.IOException;
 import java.time.LocalDateTime;
+import java.util.Set;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @Entity
-@Table(name = "images")
+@Table(name = "publications")
 public class PublicationEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "publication_id")
     private Long id;
     private String text;
-    @ManyToOne
-    private UserEntity user;
-    @OneToOne
-    private ImageEntity image;
-
-    @UpdateTimestamp
+    private Long userId;
+    @Column(name = "image_id")
+    private Long imageId;
+    //@UpdateTimestamp
     @Column(name = "time_key")
-    private LocalDateTime timeKey;
+    private String timeKey;
 
     public static PublicationEntity fromModel(PublicationRequest model) {
         PublicationEntity entity = new PublicationEntity();
         entity.setText(model.getText());
-        entity.setUser(new UserEntity(model.getUserId()));
-        entity.setImage(new ImageEntity(model.getImageId()));
+        entity.setUserId(model.getUserId());
         return entity;
     }
+
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "publication_id",updatable = false, insertable = false)
+    private Set<VoteEntity> votes;
 }

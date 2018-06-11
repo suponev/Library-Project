@@ -16,8 +16,10 @@ export class AuthService implements CanActivate {
 
   authenticate(login, password): Observable<boolean> {
     const request = {username: login, password: password};
-    console.log('Auth', request);
+   // console.log('Auth', request);
     return this.http.post('/api/auth/', request).map(result => {
+     if(result['data'].token === null)
+       return false;
       localStorage.setItem('auth', JSON.stringify(result['data']));
       return true;
     }).catch(() => {
